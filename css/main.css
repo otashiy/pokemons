@@ -7,8 +7,15 @@
     justify-content: center;
 }
 .pokemons__item {
+    margin-right: 20px;
     width: 400px;
     margin-bottom: 40px;
+    border: 2px solid #000;
+    text-align: center;
+
+}
+.pokemons__item:last-child {
+    margin-right: 0;
 }
 .pokemons__item-title {
     margin: 0;

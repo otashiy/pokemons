@@ -3,7 +3,7 @@ const pokemons = [
             "id": 1,
             "num": "001",
             "name": "Bulbasaur",
-            "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full//112.png",
+            "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
             "type": [
                 "Grass",
                 "Poison"
@@ -197,7 +197,7 @@ for (i = 0; i < pokemons.length; i++) {
     const pokemonNumber = document.createElement("p");
     pokemonNumber.textContent = currentPokemons.num;
     const pokemonImg = document.createElement("img");
-    pokemonImg.textContent = currentPokemons.img;
+    pokemonImg.src = currentPokemons.img;
     const pokemonType = document.createElement("p");
     pokemonType.textContent = currentPokemons.type;
 
